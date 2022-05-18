@@ -1,4 +1,4 @@
-# COVID-19-CDD 
+# COVID-19-Computational Drug Discovery
 
 # INTRODUCTION
 

@@ -1,4 +1,4 @@
-# COVID-19-Computational Drug Discovery
+# COVID-19 Computational Drug Discovery
 
 # INTRODUCTION
 
@@ -13,13 +13,15 @@ Chembl Database, a database containing curated bioactivity data of more than 2 m
 </div>
 
 # RESULTS AND DISCUSSION
-
+<div style="text-align: justify">
 Taking a look at pIC50 values, the actives and inactives displayed statistically significant difference, which is to be expected since threshold values (IC50 < 1,000 nM = Actives while IC50 > 1000 nM = Inactives, corresponding to pIC50 > 6 = Actives and pIC50 < 6 = Inactives) were used to define actives and inactives. Of the 4 Lipinski descriptors (MW, LogP, NumHDonors, and NumHAcceptors), LogP, and NumHAcceptors exhibited no difference between the actives and inactives, while the other two descriptors (MW and NumHDonors) show a statistically significant difference between actives and inactives.
-
+</div>
+  
 # CONCLUSION
-
+<div style="text-align: justify">
 It is worth noting that this analysis included several outliers for the features (molecular descriptors) examined herein. Therefore, they may have shifted the statistical power of this experiment. Thus, the differences found may be attributed to them. Since the results of this experiment are very critical, the outliers were not dropped. Although outliers do not modify the probability of Type I errors of the Mann-Whitney-Wilcoxon test, they nevertheless increase the probability of Type I1 errors and reduce power.
-
+</div>
+  
 # ABBREVIATIONS
 
 1) CDD : Computational Drug Discovery

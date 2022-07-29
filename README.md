@@ -28,9 +28,9 @@ It is worth noting that this analysis included several outliers for the features
 2) SARS-CoV2: Severe Acute Respiratory Syndrome Coronavirus 2
 
 # TODO:
--Part 3: PubChem fingerprint descriptor calculation and dataset preparation for model building
+-Part 3: PubChem fingerprint descriptor calculation and dataset preparation for model building.
 
--Part 4: Machine Learning model building
+-Part 4: Machine Learning model building.
 
 -Part 5: Model comparisons using lazy predict.
 

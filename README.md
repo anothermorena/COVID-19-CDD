@@ -34,4 +34,4 @@ It is worth noting that this analysis included several outliers for the features
 
 -Part 5: Model comparisons using lazy predict.
 
--Part 6:Deploy the model to heroku and build a streamlit user interface to consume the model.
+-Part 6: Deploy the model to Heroku and build a streamlit user interface to enable users to make inferences using their own canonical smiles.

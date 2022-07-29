@@ -3,7 +3,7 @@
 # INTRODUCTION
 
 <div style="text-align: justify">
-  This project is a computational drug discovery project which attempted to find a compound or a molecule that will inhibit the function of SARS-CoV2 hence its name, COVID-19-CDD.  
+This project is a computational drug discovery project that attempts to find a compound or a molecule that will inhibit the function of SARS-CoV2, hence its name, COVID-19-CDD.
 </div>
 
 # METHODS
@@ -14,15 +14,24 @@ Chembl Database, a database containing curated bioactivity data of more than 2 m
 
 # RESULTS AND DISCUSSION
 <div style="text-align: justify">
-Taking a look at pIC50 values, the actives and inactives displayed statistically significant difference, which is to be expected since threshold values (IC50 < 1,000 nM = Actives while IC50 > 1000 nM = Inactives, corresponding to pIC50 > 6 = Actives and pIC50 < 6 = Inactives) were used to define actives and inactives. Of the 4 Lipinski descriptors (MW, LogP, NumHDonors, and NumHAcceptors), LogP, and NumHAcceptors exhibited no difference between the actives and inactives, while the other two descriptors (MW and NumHDonors) show a statistically significant difference between actives and inactives.
+Taking a look at pIC50 values, the actives and inactives displayed a statistically significant difference, which is to be expected since threshold values (IC50 < 1,000 nM = Actives while IC50 > 1,000 nM = Inactives, corresponding to pIC50 > 6 = Actives and pIC50 < 6 = Inactives) were used to define actives and inactives. LogP and NumHAcceptors showed no difference between actives and inactives among the four Lipinski descriptors (MW, LogP, NumHDonors, and NumHAcceptors), whereas the other two descriptors (MW and NumHDonors) showed a statistically significant difference between actives and inactives.
 </div>
   
 # CONCLUSION
 <div style="text-align: justify">
-It is worth noting that this analysis included several outliers for the features (molecular descriptors) examined herein. Therefore, they may have shifted the statistical power of this experiment. Thus, the differences found may be attributed to them. Since the results of this experiment are very critical, the outliers were not dropped. Although outliers do not modify the probability of Type I errors of the Mann-Whitney-Wilcoxon test, they nevertheless increase the probability of Type I1 errors and reduce power.
+It is worth noting that this analysis included several outliers for the features (molecular descriptors) examined herein. Therefore, they may have shifted the statistical power of this experiment. Thus, the differences found may be attributed to them. Since the results of this experiment are very critical, the outliers were not dropped. Although outliers do not modify the probability of Type I errors of the Mann-Whitney-Wilcoxon test, they nevertheless increase the probability of Type I errors and reduce power.
 </div>
   
 # ABBREVIATIONS
 
 1) CDD : Computational Drug Discovery
 2) SARS-CoV2: Severe Acute Respiratory Syndrome Coronavirus 2
+
+# TODO:
+-Part 3: PubChem fingerprint descriptor calculation and dataset preparation for model building
+
+-Part 4: Machine Learning model building
+
+-Part 5: Model comparisons using lazy predict.
+
+-Part 6:Deploy the model to heroku and build a streamlit user interface to consume the model.
